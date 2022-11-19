@@ -22,3 +22,7 @@ npx @sanity/cli help - to explore the CLI manual
 sanity deploy
 
 ```
+
+### plugins
+
+[Syntax Highliting](https://www.sanity.io/plugins/code-input)

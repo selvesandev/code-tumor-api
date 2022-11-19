@@ -18,5 +18,29 @@ export default {
                 maxLength: 96
             }
         },
+        {
+            name: 'category',
+            type: 'reference',
+            title: 'Parent Category',
+            to: [{type: 'category'}]
+        },
+        {
+            name: 'metaKeywords',
+            type: 'array',
+            title: 'Meta Keywords',
+            description: 'Input keywords for serch engine optimization',
+            of: [{type:'string'}]
+        },
+        {
+            name: 'metaDescription',
+            type: 'text',
+            title: 'Meta Description',
+            description: 'Input description for serch engine optimization',
+            options: {
+                maxLength: 150
+            }
+        }
     ]
 }
+
+
