@@ -50,6 +50,12 @@ export default {
         //     type: 'text',
         //     description: 'Start explaining...'
         // },
+        // {
+        //     name: 'sancontent',
+        //     description: 'Start explaing your story...',
+        //     title: 'About your topic',
+        //     type: 'markdown',
+        // },
         {
             name: 'content',
             description: 'Start explaining your story...',
@@ -76,6 +82,9 @@ export default {
                         }
                         }
                     ]
+                },
+                {
+                    type: 'code'
                 }
             ]
         }
